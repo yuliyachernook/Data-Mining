@@ -16,7 +16,7 @@ print(df)
 print("\nDropna, axis = 1:")
 df = df.dropna(axis=1, how=any, thresh=4)
 print(df)
-print("\nDropna, axis = 2:")
+print("\nDropna, axis = 0:")
 df = df.dropna(axis=0, how=any, thresh=2)
 print(df)
 
